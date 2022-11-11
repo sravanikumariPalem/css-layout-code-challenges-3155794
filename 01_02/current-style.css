@@ -3,6 +3,7 @@
   width: clamp(calc(320px - 3rem), 75%, 70ch);
   height: calc(75vh - 2.5rem);
   border: 0.5rem solid black;
+  
 }
 
 .menu {
@@ -14,11 +15,16 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  flex-wrap: wrap;
+  
 }
 
 .menu a {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 1rem;
   text-decoration: none;
   color: black;
   border: 1px solid black;
